@@ -1,0 +1,20 @@
+{
+  "name": "auditoria-projetos",
+  "version": "1.0.0",
+  "description": "Skill para o Claude Code que audita projetos de software contra um checklist de 111 itens e entrega só o que importa agora. Somente leitura: nada é alterado sem permissão.",
+  "bin": {
+    "auditoria-projetos": "bin/instalar.js"
+  },
+  "files": [
+    "bin",
+    "auditoria-projetos",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.7"
+  },
+  "keywords": ["claude-code", "skill", "auditoria", "seguranca", "qualidade-de-software", "checklist"],
+  "license": "MIT",
+  "author": "Jonh Selmo de Souza do Nascimento"
+}
