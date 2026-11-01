@@ -12,18 +12,18 @@ A ideia é não estudar os 111 conceitos. A auditoria roda, separa o grupo "falt
 
 ## Instalação
 
-### Com npx
+### Com npx, direto do GitHub
 
 ```bash
-npx auditoria-projetos            # para todos os projetos (~/.claude/skills)
-npx auditoria-projetos --projeto  # só para a pasta atual (./.claude/skills)
+npx github:jonhsel/auditoria-projetos-repo            # para todos os projetos (~/.claude/skills)
+npx github:jonhsel/auditoria-projetos-repo --projeto  # só para a pasta atual (./.claude/skills)
 ```
 
 Se a skill já estiver instalada, o instalador pergunta antes de substituir.
 
 ### Manualmente
 
-1. Clone este repositório ou baixe o zip.
+1. Clone este repositório (`git clone https://github.com/jonhsel/auditoria-projetos-repo.git`) ou baixe o zip.
 2. Copie a pasta `auditoria-projetos/` (a de dentro, que contém o `SKILL.md`) para:
    - `~/.claude/skills/` para valer em todos os projetos; ou
    - `.claude/skills/` na raiz de um projeto para valer só nele.

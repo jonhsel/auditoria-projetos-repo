@@ -14,7 +14,22 @@
   "engines": {
     "node": ">=16.7"
   },
-  "keywords": ["claude-code", "skill", "auditoria", "seguranca", "qualidade-de-software", "checklist"],
+  "keywords": [
+    "claude-code",
+    "skill",
+    "auditoria",
+    "seguranca",
+    "qualidade-de-software",
+    "checklist"
+  ],
   "license": "MIT",
-  "author": "Jonh Selmo de Souza do Nascimento"
+  "author": "Jonh Selmo de Souza do Nascimento",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonhsel/auditoria-projetos-repo.git"
+  },
+  "homepage": "https://github.com/jonhsel/auditoria-projetos-repo#readme",
+  "bugs": {
+    "url": "https://github.com/jonhsel/auditoria-projetos-repo/issues"
+  }
 }
